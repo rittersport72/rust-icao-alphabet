@@ -14,7 +14,7 @@ pub struct Icao {
 
 impl Icao {
     /// Create ICAO structure
-    fn new() -> Self {
+    pub fn new() -> Self {
         Self {
             alphabet: Self::create_alphabet(),
         }
